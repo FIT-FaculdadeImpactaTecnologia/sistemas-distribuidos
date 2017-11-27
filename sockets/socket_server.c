@@ -21,10 +21,6 @@ int main()
     * e as portas.
     */ 
     struct sockaddr_in servaddr;
-    
-    Each server needs to “listen” for connections. 
-    The above function creates a socket with AF_INET ( IP Addressing ) and of type SOCK_STREAM.
-     Data from all devices wishing to connect on this socket will be redirected to listen_fd.
 
     /*
     * Cada servidor precisa "ficar escutando" as conexões.
